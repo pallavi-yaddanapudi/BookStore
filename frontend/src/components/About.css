@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height:100vh;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    color: #232F3D;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-subtitle {
+    margin-top: 20px;
+    color: #0077b6;
+    font-weight: 600;
+  }
+  
+  .about-text {
+    color: #555;
+    line-height: 1.6;
+    font-style: italic;
+  }
+  
