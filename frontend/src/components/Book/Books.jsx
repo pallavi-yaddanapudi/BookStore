@@ -3,7 +3,7 @@ import axios from "axios";
 import Book from "./Book.jsx";
 import "./Book.css";
 
-const URL = "http://localhost:8080/books";
+const URL = "https://bookstore-skyx.onrender.com/books";
 
 const fetchHandler = async () => {
   try {

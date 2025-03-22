@@ -9,7 +9,7 @@ const Book = (props) => {
 
   const deleteHandler = async () => {
     await axios
-      .delete(`http://localhost:8080/books/${_id}`)
+      .delete(`https://bookstore-skyx.onrender.com/books/${_id}`)
       .then((res) => {
         console.log("Deleted:", res.data);
         props.onDelete(_id); // Notify parent to update state

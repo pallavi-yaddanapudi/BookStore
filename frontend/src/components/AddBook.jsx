@@ -1,7 +1,7 @@
 import { Box, Button, FormLabel, TextField,Typography,Checkbox,FormControlLabel} from '@mui/material';
 import React, { useState } from 'react';
 import axios from "axios";
-const URL = "http://localhost:8080/books";
+const URL = "https://bookstore-skyx.onrender.com/books";
 import { useNavigate} from 'react-router-dom';
 
 const AddBook = () => {
